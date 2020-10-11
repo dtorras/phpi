@@ -1,7 +1,7 @@
 {
   "name": "calcinai/phpi",
   "description": "Event driven bindings for the Raspberry Pi GPIO",
-  "type": "Library",
+  "type": "library",
   "keywords": ["raspberry", "pi", "rpi", "gpio", "websocket", "spi", "pwm"],
   "license": "MIT",
   "authors": [
@@ -13,7 +13,7 @@
   "require": {
     "php": ">=5.4.0",
     "calcinai/php-mmap": "^0.1",
-    "react/event-loop": "^0.4.1"
+    "react/event-loop": "^0.5.3"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8"
